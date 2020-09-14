@@ -1,3 +1,6 @@
 {
-  "additionalBranchPrefix": "prefix-"
+  "packageRules": [{
+    "packagePatterns": ["*"],
+    "additionalBranchPrefix": "prefix-"
+  }]
 }
