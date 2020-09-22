@@ -2,5 +2,6 @@
   "packageRules": [{
     "packagePatterns": ["*"],
     "additionalBranchPrefix": "prefix-"
-  }]
+  }],
+  "prBodyTemplate": "'{{{header}}}{{{table}}}{{{notes}}}{{{changelogs}}}{{{configDescription}}}{{{footer}}}'"
 }
